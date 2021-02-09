@@ -1,0 +1,60 @@
+<form action="process.php" method="post">
+    <h1>My Registration Form</h1>
+
+    <table>
+        <tr>
+            <td><label for="first_name">First Name:</label></td>
+            <td><input type="text" id="first_name" name="first_name"></td>
+        </tr>
+        <tr>
+            <td><label for="last_name">Last Name:</label></td>
+            <td><input type="text" id="last_name" name="last_name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label for="pw_confirm">PW Confirmation:</label></td>
+            <td><input type="password" id="pw_confirm" name="password_confirmation"></td>
+        </tr>
+        <tr>
+            <td><label for="birthday">Birthday:</label></td>
+            <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+    </table>
+
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    
+    <label for="decline">Other</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+
+    <p>Favorite Language :
+        <select name="coding_language" id="language">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+        </select>
+    </p>
+
+    <p><input type="submit" value="Click here to register"></p>
+
+</form>
+
+
+
+
+
+
